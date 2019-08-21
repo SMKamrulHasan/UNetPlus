@@ -8,7 +8,10 @@ U-NetPlus: A Modified Encoder-Decoder U-Net Architecture for Semantic and Instan
 
 # Installation
 Install Pytorch 1.2 and CUDA 8.0
-Clone this repo
+
 
 # Data Preparation
+
+# Note
+Contact: S. M. Kamrul Hasan (kamrul.leon@yahoo.com)
 
