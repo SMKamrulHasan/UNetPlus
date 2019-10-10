@@ -13,5 +13,5 @@ Install Pytorch 1.2 and CUDA 8.0
 # Data Preparation
 
 # Note
-Contact: S. M. Kamrul Hasan (smkamrulhasanrit@gmail.com)
+Contact: S. M. Kamrul Hasan (smkamrulhasan.rit@gmail.com)
 
