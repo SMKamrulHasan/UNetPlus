@@ -18,18 +18,48 @@ Install Pytorch 1.2 and CUDA 8.0
 If you find this code useful for your work, please cite it as follows:
 
 # Bibtex
-@INPROCEEDINGS{8856791,
-author={S. M. {Kamrul Hasan} and C. A. {Linte}},
-booktitle={2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
-title={U-NetPlus: A Modified Encoder-Decoder U-Net Architecture for Semantic and Instance Segmentation of Surgical Instruments from Laparoscopic Images},
-year={2019},
-volume={},
-number={},
-pages={7205-7211},
-keywords={Instruments;Computer architecture;Image segmentation;Convolution;Surgery;Interpolation;Training},
-doi={10.1109/EMBC.2019.8856791},
-ISSN={},
-month={July},}
+<link rel="stylesheet" type="text/css" href="stylebiblio.css">
+<script type="text/javascript" src="bibtextohtml.js"></script>
+<textarea hidden name="bibtex_input" id="bibtex_input" cols=50 rows=20>
+<?php
+
+    echo file_get_contents("francois.bib");
+
+
+?>
+< /textarea>
+
+
+
+<div id="bibtex_errors"></div>
+
+
+
+<div class="bibtex_template">
+    <li>
+    <a class="url"><span class="title"></span></a></br>
+    <span class="author"></span></br>
+    <span class="booktitle"></span>
+    <span class="if publisher">
+	<span class="publisher"></span>.
+    </span>
+    <span class="if pages">
+      p. <span class="pages"></span>.
+    </span>
+    <span class="if year">
+    <span class="year"></span></span>
+    </br>
+    <a class="bibtexCodeLink">
+	    [bibtex]
+    </a>
+    </br></br>
+  </li>
+
+ </div>
+
+<ol id="bibtex_display">
+</ol>
+
 
 # Note
 Contact: S. M. Kamrul Hasan (smkamrulhasan.rit@gmail.com)
