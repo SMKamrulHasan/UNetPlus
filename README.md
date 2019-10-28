@@ -18,24 +18,6 @@ Install Pytorch 1.2 and CUDA 8.0
 If you find this code useful for your work, please cite it as follows:
 
 # Bibtex
-<link rel="stylesheet" type="text/css" href="stylebiblio.css">
-<script type="text/javascript" src="bibtextohtml.js"></script>
-<textarea hidden name="bibtex_input" id="bibtex_input" cols=50 rows=20>
-<?php
-
-    echo file_get_contents("francois.bib");
-
-
-?>
-< /textarea>
-
-
-
-<div id="bibtex_errors"></div>
-
-
-
-<div class="bibtex_template">
     <li>
     <a class="url"><span class="title"></span></a></br>
     <span class="author"></span></br>
@@ -55,10 +37,7 @@ If you find this code useful for your work, please cite it as follows:
     </br></br>
   </li>
 
- </div>
 
-<ol id="bibtex_display">
-</ol>
 
 
 # Note
