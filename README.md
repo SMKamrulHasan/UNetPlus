@@ -101,7 +101,7 @@ needle driver, vessel sealer, grasping retractor etc. \
 
 ### **Method: U-NetPlus**
 
-![overview](img/method.png)
+![overview](method.png)
 
 Modified U-Net with batch-normalized VGG11 as an encoder. Each box
 corresponds to a multi-channel featuring a map passing through a series
