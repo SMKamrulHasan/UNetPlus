@@ -46,7 +46,7 @@ U-NetPlus has an encoder network and a corresponding decoder network, followed b
 
 <div class="col-md-8 col-md-offset-2">
     <figure>
-        <img src="https://user-images.githubusercontent.com/42282006/63461920-b15de480-c427-11e9-804a-30c849d19f8c.png" style="padding-bottom:10px" class="img-responsive" alt="overview">
+        <img src="https://user-images.githubusercontent.com/42282006/63461920-b15de480-c427-11e9-804a-30c849d19f8c.png" style="padding-bottom:4px" class="img-responsive" alt="overview">
             <figcaption>
             </figcaption>
     </figure>
@@ -60,7 +60,6 @@ transition-down block are labeled with a cyan and yellow box, respectively.
 
         
 
-![Sub-TernausNet (3)](https://user-images.githubusercontent.com/42282006/63461920-b15de480-c427-11e9-804a-30c849d19f8c.png)
 
 # [Results]()
 
