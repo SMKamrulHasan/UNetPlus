@@ -44,6 +44,22 @@ Endoscopic Vision Challenge [22]. The training dataset has 8 × 225 frame sequen
 
 U-NetPlus has an encoder network and a corresponding decoder network, followed by a final pixel-wise segmentation layer.
 
+<div class="col-md-8 col-md-offset-2">
+    <figure>
+        <img src="https://user-images.githubusercontent.com/42282006/63461920-b15de480-c427-11e9-804a-30c849d19f8c.png" style="padding-bottom:10px" class="img-responsive" alt="overview">
+            <figcaption>
+            </figcaption>
+    </figure>
+</div>
+
+<div class="col-md-8 col-md-offset-2">
+    Illustration of L-CO-Net framework: (a) ROI detection around LV-RV; (b) Segmentation block consisting of a decoder and an
+encoder where each condense block (CB) consists of 3 Layers with a growth rate of k = 16. The transformations within each CB and the
+transition-down block are labeled with a cyan and yellow box, respectively.
+</div>
+
+        
+
 ![Sub-TernausNet (3)](https://user-images.githubusercontent.com/42282006/63461920-b15de480-c427-11e9-804a-30c849d19f8c.png)
 
 # [Results]()
