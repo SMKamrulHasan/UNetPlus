@@ -66,28 +66,18 @@ INDICATED IN BOLD TEXT.
 # [Train]()
 
 
-    <div class="row" id="citation" style="padding-bottom:30px">
-        <div class="col-md-8 col-md-offset-2">
-            <h3>
-                <b>Citation</b>
-            </h3>
-            If you find our work useful in your research, please consider citing:
-<pre class="w3-panel w3-leftbar w3-light-grey">
-@inproceedings{hasan2020co,
-  title={L-CO-Net: Learned Condensation-Optimization Network for Segmentation and Clinical Parameter Estimation from Cardiac Cine MRI},
+If you find our work useful in your research, please consider citing:
+
+@inproceedings{hasan2019u,
+  title={U-NetPlus: A modified encoder-decoder U-Net architecture for semantic and instance segmentation of surgical instruments from laparoscopic images},
   author={Hasan, SM Kamrul and Linte, Cristian A},
-  booktitle={2020 42nd Annual International Conference of the IEEE Engineering in Medicine \& Biology Society (EMBC)},
-  pages={1217--1220},
-  year={2020},
+  booktitle={2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+  pages={7205--7211},
+  year={2019},
   organization={IEEE}
 }</pre>
         </div>
     </div>
-
-
-If you find this work useful for your publications, please consider citing:
-
-> Hasan, S. M., and Cristian A. Linte. "U-NetPlus: a modified encoder-decoder U-Net architecture for semantic and instance segmentation of surgical instrument." arXiv preprint arXiv:1902.08994 (2019)..
 
 
 # Note
