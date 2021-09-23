@@ -66,8 +66,12 @@ INDICATED IN BOLD TEXT.
 # [Train]()
 
 
-If you find our work useful in your research, please consider citing:
 
+            <h3>
+                <b>Citation</b>
+            </h3>
+            If you find our work useful in your research, please consider citing:
+<pre class="w3-panel w3-leftbar w3-light-grey">
 @inproceedings{hasan2019u,
   title={U-NetPlus: A modified encoder-decoder U-Net architecture for semantic and instance segmentation of surgical instruments from laparoscopic images},
   author={Hasan, SM Kamrul and Linte, Cristian A},
