@@ -19,7 +19,7 @@ We depend on some python packages which need to be installed by the user:
 * numpy
 
 # Authors 
-* S. M. Kamrul Hasan ([sh3190@rit.edu])()
+* S. M. Kamrul Hasan ([sh3190@rit.edu])
 * Cristian A. Linte
 
 # Contents 
@@ -32,13 +32,12 @@ We depend on some python packages which need to be installed by the user:
 
 
 
-**U-NetPlus: A Modified Encoder-Decoder U-Net Architecture for Semantic and Instance Segmentation of Surgical Instruments from Laparoscopic Images** EMBC 2019, Oral \
- {.col-md-12 .text-center style="padding-bottom:20px"}
+**U-NetPlus: A Modified Encoder-Decoder U-Net Architecture for Semantic and Instance Segmentation of Surgical Instruments from Laparoscopic Images** EMBC 2019, Oral
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--   [S. M. Kamrul Hasan](http://ai.stanford.edu/~optas/) Rochester
+-   [S. M. Kamrul Hasan](https://smkamrulhasan.github.io/) Rochester
     Institute of Technology
--   [Cristian A. Linte](http://aabdelreheem.me) Rochester Institute of
+-   [Cristian A. Linte](https://www.rit.edu/directory/calbme-cristian-linte) Rochester Institute of
     Technology
 
 -   [](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7372295/)
