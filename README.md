@@ -67,10 +67,8 @@ INDICATED IN BOLD TEXT.
 
 
 
-            <h3>
-                <b>Citation</b>
-            </h3>
-            If you find our work useful in your research, please consider citing:
+
+ If you find our work useful in your research, please consider citing:
 <pre class="w3-panel w3-leftbar w3-light-grey">
 @inproceedings{hasan2019u,
   title={U-NetPlus: A modified encoder-decoder U-Net architecture for semantic and instance segmentation of surgical instruments from laparoscopic images},
@@ -80,8 +78,6 @@ INDICATED IN BOLD TEXT.
   year={2019},
   organization={IEEE}
 }</pre>
-        </div>
-    </div>
 
 
 # Note
