@@ -66,6 +66,23 @@ INDICATED IN BOLD TEXT.
 # [Train]()
 
 
+    <div class="row" id="citation" style="padding-bottom:30px">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>
+                <b>Citation</b>
+            </h3>
+            If you find our work useful in your research, please consider citing:
+<pre class="w3-panel w3-leftbar w3-light-grey">
+@inproceedings{hasan2020co,
+  title={L-CO-Net: Learned Condensation-Optimization Network for Segmentation and Clinical Parameter Estimation from Cardiac Cine MRI},
+  author={Hasan, SM Kamrul and Linte, Cristian A},
+  booktitle={2020 42nd Annual International Conference of the IEEE Engineering in Medicine \& Biology Society (EMBC)},
+  pages={1217--1220},
+  year={2020},
+  organization={IEEE}
+}</pre>
+        </div>
+    </div>
 
 
 If you find this work useful for your publications, please consider citing:
