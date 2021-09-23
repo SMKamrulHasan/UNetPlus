@@ -91,3 +91,107 @@ We compare our proposed architecture with three other models: U-Net, U-Net+NN, T
 
 # Note
 Contact: S. M. Kamrul Hasan (smkamrulhasan.rit@gmail.com)
+
+
+
+
+
+**L-CO-Net: Learned Condensation-Optimization Network for Clinical Parameter Estimation from Cardiac Cine MRI** EMBC 2020, Oral \
+ {.col-md-12 .text-center style="padding-bottom:20px"}
+---------------------------------------------------------------------------------------------------------------------------------
+
+-   [S. M. Kamrul Hasan](http://ai.stanford.edu/~optas/) Rochester
+    Institute of Technology
+-   [Cristian A. Linte](http://aabdelreheem.me) Rochester Institute of
+    Technology
+
+-   [](https://arxiv.org/abs/2004.11253)
+
+    #### **[ Paper ]**
+
+-   [](#video)
+
+    #### **[ Video ]**
+
+-   [](https://github.com/lconet)
+
+    #### **[ Code ]**
+
+-   [](#dataset)
+
+    #### **[ Dataset ]**
+
+### **Abstract**
+
+In this work, we implement a fully convolutional segmenter featuring
+both a learned group structure and a regularized weight-pruner to reduce
+the high computational cost in volumetric image segmentation. We
+validated our framework on the ACDC dataset featuring one healthy and
+four pathology groups imaged throughout the cardiac cycle. Our technique
+achieved Dice scores of 96.8% (LV blood-pool), 93.3% (RV blood-pool) and
+90.0% (LV Myocardium) with five-fold cross-validation and yielded
+similar clinical parameters as those estimated from the ground truth
+segmentation data. Based on these results, this technique has the
+potential to become an efficient and competitive cardiac image
+segmentation tool that may be used for cardiac computer-aided diagnosis,
+planning, and guidance applications.
+
+### **Video**
+
+--\> --\>
+
+### **Dataset**
+
+For this study, we used the ACDC dataset, which is composed of
+short-axis cardiac cine-MR images acquired from 100 different patients
+divided into 5 evenly distributed subgroups according to their cardiac
+condition: normal- NOR, myocardial infarction- MINF, dilated
+cardiomyopathy- DCM, hypertrophic cardiomyopathyHCM, and abnormal right
+ventricle- ARV, available as a part of the STACOM 2017 ACDC challenge..
+\
+
+### **Method: L-CO-Net**
+
+![overview](img/method.png)
+
+Illustration of L-CO-Net framework: (a) ROI detection around LV-RV; (b)
+Segmentation block consisting of a decoder and an encoder where each
+condense block (CB) consists of 3 Layers with a growth rate of k = 16.
+The transformations within each CB and the transition-down block are
+labeled with a cyan and yellow box, respectively.
+
+### **Qualitative Results**
+
+![overview](img/listener_qualitative_res.png)
+
+Representative ED and ES frames segmentation results of a complete
+cardiac cycle from the base (high slice index) to apex (low slice index)
+showing RV blood-pool, LV blood-pool, and LV-Myocardium in purple, red,
+and cyan respectively
+
+### **Citation**
+
+If you find our work useful in your research, please consider citing:
+
+``` {.w3-panel .w3-leftbar .w3-light-grey}
+@inproceedings{hasan2020co,
+  title={L-CO-Net: Learned Condensation-Optimization Network for Segmentation and Clinical Parameter Estimation from Cardiac Cine MRI},
+  author={Hasan, SM Kamrul and Linte, Cristian A},
+  booktitle={2020 42nd Annual International Conference of the IEEE Engineering in Medicine \& Biology Society (EMBC)},
+  pages={1217--1220},
+  year={2020},
+  organization={IEEE}
+}
+```
+
+### **L-CO-Net participated post MICCAI STACOM-2017 ACDC Challenge**
+
+Coming soon!
+
+### **Acknowledgements**
+
+Research reported in this publication was supported by the National
+Institute of General Medical Sciences of the National Institutes of
+Health under Award No. R35GM128877 and by the Office of Advanced Cyber
+infrastructure of the National Science Foundation under Award No.
+1808530. .
