@@ -116,14 +116,14 @@ convolution layers and a ReLU activation function.
 
 ### **Augmentation**
 
-![overview](img/preprocess.png)
+![overview](preprocess.png)
 
 Example images of applying both affine and elastic transformation in
 albumentations library for data augmentation.
 
 ### **Qualitative Results**
 
-![overview](img/listener_qualitative_res.png)
+![overview](listener_qualitative_res.png)
 
 Qualitative comparison of binary segmentation, instrument part and
 instrument type segmentation result and their overlay onto the native
@@ -132,7 +132,7 @@ four different frameworks: U-Net, U-Net+NN, TernausNet, and U-NetPlus.
 
 ### **Ablation Study**
 
-![overview](img/listener_qualitative_res2.png)
+![overview](listener_qualitative_res2.png)
 
 Attention results: U-NetPlus “looks” at a focused target region, whereas
 U-Net, U-Net+NN and TernausNet appear less “focused”, leading to less
